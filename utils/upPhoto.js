@@ -1,5 +1,5 @@
 const path = require('path')
-const configs = require('../configs')
+const configs = require('./configs')
 const multer = require('multer')
 
 const storage = multer.diskStorage({

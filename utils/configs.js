@@ -1,4 +1,15 @@
 let configs = {
+
+    baseUrl: '',
+    facebookAuth : {
+        clientID : "270328476930180",
+        clientSecret : "1023fbfd842bade760c8882ba77b4f79"
+    },
+    googleAuth : {
+        clientID : "410201483253-cipidfmf6751n9492v8g4nres7vqrsp9.apps.googleusercontent.com",
+        clientSecret : "u7AiURPSsFKsV3ElhEECFz29"
+    },
+
     DEVICE: {
         ANDROID: 'Mobile android',
         IOS: 'Mobile ios',
@@ -10,7 +21,6 @@ let configs = {
     SERVER_KEY: "AIzaSyA42Xxfw-_Z_BL0e4HzIC4u2iQCn3NigKA",
     titleNoti: 'Template ExpressJS',
 
-    baseUrl: '',
 
     PAGE_SIZE: 10,
     MAX_IMAGE_SIZE: 5 * 1024 * 1024,

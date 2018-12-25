@@ -1,6 +1,6 @@
 const JWT = require('jsonwebtoken')
-const configs = require('../configs')
-const db = require('../db')
+const configs = require('./configs')
+const db = require('./db')
 
 const verifyToken = async (req, res, next) => {
     let token = req.headers['x-access-token']
